@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industro</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <link rel="shortcut icon" href="img/Industrial logo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/maxcdn.bootstrapcdn.com_font-awesome_4.5.0_css_font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+
+  <link rel="stylesheet" href="css/fonts.googleapis.com_css_family=Merriweather_400,900,900i.css">
+
+
+</head>
+
+<body>
+
+  <!-- Back to top button -->
+  <a id="button"></a>
+
+
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  </div>
+
+  <canvas id="ParticleCanvas"></canvas>
+
+  <section>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html">
+          <img src="img/logo-white.png" width="200" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 rounded-4">
+            <li class="nav-item me-5">
+              <a class="nav-link active text-orange fw-bold" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle text-white  fw-bold " href="index.html" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our company</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our team</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Team details</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle text-white fw-bold" href="index.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our company</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our team</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Team details</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle text-white fw-bold" href="index.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Project
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our company</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our team</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Team details</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle text-white fw-bold" href="index.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our company</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Our team</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Team details</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active text-white fw-bold" href="#">Shop</a>
+            </li>
+          </ul>
+          <div class="search-icon me-3 d-md-none d-xl-block">
+            <i class="fa-solid fa-magnifying-glass fs-6 text-white"></i>
+          </div>
+          <form class="lets d-flex d-md-none d-xl-block">
+            <button class="btn bg-orange text-white px-4" type="submit">Let's Talk</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo-white.png" width="185" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link active text-orange" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our company</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our team</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Team details</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our company</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our team</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Team details</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our company</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our team</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Team details</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our company</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Pricing plan</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our team</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Team details</a></li>
+                  <li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item me-5">
+                <a class="nav-link active text-white" href="#">Contact us</a>
+              </li>
+            </ul>
+
+            <div class="comment d-none d-lg-none d-xl-none d-xxl-block">
+              <div class="row">
+                <div class="col-2 fs-2 text-orange">
+                  <i class="fa-solid fa-message"></i>
+                </div>
+                <div class="col-10">
+                  <div class="number  ms-3 fs-5">
+                    <a href="#" class="text-white">0 123 456 789</a>
+                  </div>
+                  <div class="email ms-3 fs-6">
+                    <a href="#" class="text-white">themeht23@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="search-icon me-3  d-md-none d-xl-block">
+              <i class="fa-solid fa-magnifying-glass fs-6 text-white"></i>
+            </div>
+            <form class="d-flex  d-md-none d-xl-block">
+              <button class="btn bg-orange text-white px-4" type="submit">Let's Talk</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="top-slider">
+      <button class="slider-button slider-button-prev" data-slide-direction="prev">&#8592</button>
+      <button class="slider-button slider-button-next" data-slide-direction="next">&#8594</button>
+      <div class="slides">
+        <div class="slide" data-active-slide>
+          <div class="img">
+            <div class="col-12">
+              <h1 class="text-center col-8 col-xs-12 ">A Platform for Industry Excellence</h1>
+              <p class="text-center col-8 col-xs-12 col-md-10">In the realm of industry, the pursuit of excellence
+                intertwines with the
+                pursuit of progress. Industries, diverse and dynamic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="img2">
+            <div class="col-12">
+              <h1 class="text-center col-8 col-xs-12">
+                Engineering the Future,Today</h1>
+              <p class="text-center col-8 col-xs-12 col-md-10">The industrial landscape, a diverse tapestry of sectors,
+                represents the beating heart of modern economies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="img3">
+            <div class="col-12">
+              <h1 class="text-center col-8 col-xs-12">
+                Challenges into Opportunities</h1>
+              <p class="text-center col-8  col-xs-12 col-md-10">At the heart of the global landscape, industry stands as
+                a multidimensional force of progress, driving economies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section class="Services">
+    <div class="container">
+      <div class="contant text-center">
+        <h6 class="text-white"><span class="text-orange">//</span> WHO WE ARE</h6>
+        <h2 class="text-white fs-1">The Best Industry Services </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-4 justify-content-center">
+        <div class="col-12 col-md-6 col-xl-4 mb-3">
+          <div class="box py-4 px-4  rounded-2">
+            <div class="d-flex justify-content-between">
+              <i class="fa-solid fa-oil-well text-orange"></i>
+              <div class="sub-box py-2 px-4  rounded-3">
+                <span class="text-white">01</span>
+              </div>
+            </div>
+            <h4 class="text-white mt-3 fs-3">Oil & Gas Engineering</h4>
+            <p class="text-darkgray">Progressively maintain extensive infomediaries via extensible nich. Capitalize on
+              low hanging fruit.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mb-3">
+          <div class="box py-4 px-4  rounded-2">
+            <div class="d-flex justify-content-between">
+              <i class="fa-solid fa-gears text-orange"></i>
+              <div class="sub-box py-2 px-4  rounded-3">
+                <span class="text-white">02</span>
+              </div>
+            </div>
+            <h4 class="text-white mt-3 fs-3">Mechanical Engineering</h4>
+            <p class="text-darkgray">Progressively maintain extensive infomediaries via extensible nich. Capitalize on
+              low hanging fruit.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-4">
+          <div class="box py-4 px-4  rounded-2">
+            <div class="d-flex justify-content-between">
+              <i class="fa-solid fa-flask-vial text-orange"></i>
+              <div class="sub-box py-2 px-4  rounded-3">
+                <span class="text-white">03</span>
+              </div>
+            </div>
+            <h4 class="text-white mt-3 fs-3">Chemical Research</h4>
+            <p class="text-darkgray">Progressively maintain extensive infomediaries via extensible nich. Capitalize on
+              low hanging fruit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <div class="container">
+      <div class=" row text-center">
+        <div class="col-12 app-dev">
+          <p class="text-darkgray d-inline me-5 mb-3">We Are Here to Increase Your Knowledge With Experience</p>
+          <a href="#" class="col-md-6 bg-orange py-1 px-5 rounded-5 text-white">FIND YOUR SOLUTION</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 col-xl-6">
+          <div class="about-img position-relative">
+            <div class="box bg-orange text-center position-absolute d-none d-md-block">
+              <div>
+                <i class="fa-solid fa-industry text-white me-2"></i>
+              </div>
+              <div>
+                <span class="text-white">
+                  Founded
+                  1966
+                </span>
+              </div>
+            </div>
+            <img src="img/about-img01.png" alt="" class="w-100">
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6">
+          <div class="about-contant mt-5 px-4">
+            <h6 class="text-white"><span class="text-orange m-2">//</span>ABOUT US</h6>
+            <h2 class="text-white">Leading the best industrial agency</h2>
+            <p class="text-darkgray mt-4">Progressively maintain extensive infomediaries via extensible nich. Capitalize
+              on low hanging fruit. a ballpark value added is activity to beta test. Override the digital divide with
+              additional click throughs from fruit to identify a ballpark value added.</p>
+            <ul class="p-0">
+              <li>
+                <i class="fa-regular fa-circle-check text-orange"></i>
+                <span class="text-white fs-6 ms-2">Quality Control System , 100% Satisfaction Guarantee</span>
+              </li>
+              <li class="mt-3">
+                <i class="fa-regular fa-circle-check text-orange"></i>
+                <span class="text-white fs-6 ms-2">Environmental Sensitivity, Personalised Solutions</span>
+              </li>
+            </ul>
+            <div class="row justify-content-center align-items-center mt-5">
+              <div class="col-11">
+                <h4 class="text-white fs-6">BUSSINESS PLANNING</h4>
+                <div class="progress text-white">
+                  <div class="progress-bar bg-orange" role="progressbar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="col-1">
+                <span class="text-white">80%</span>
+              </div>
+            </div>
+            <div class="row mt-5 justify-content-between">
+              <div class="col-2">
+                <div class="img border-2 border-primary">
+                  <img src="img/team-img5.png" alt="" width="70" class="rounded-circle ">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="sing">
+                  <img src="img/signature-1.png" alt="">
+                </div>
+                <span class="text-white">MANAGER</span>
+              </div>
+              <div class="col-6">
+                <button class="btn-about  text-center px-4 py-3" type="submit">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="marquee-item">
+    <marquee class="text-orange">Oil &
+      Gas Engineering * Mechanical
+      Engineering * Automotive
+      Manufacturing * Chemical
+      Research * Agricultural
+      Automation * Civil
+      Engineering </marquee>
+  </div>
+
+  <section class="service-provide">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5 col-xl-6">
+          <div class="provide">
+            <h6 class="text-white"><span class="text-orange">//</span> OUR SERVICES</h6>
+            <h2 class="text-white mt-3">Provide Best Services For You</h2>
+            <div class="btn mt-5">
+              <div>
+                <i class="fa-solid fa-arrow-up text-white fs-1"></i>
+              </div>
+              <div>
+                <span class="text-white">READ MORE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7 col-xl-6">
+          <div class="service-box mt-5">
+            <div class="service-item py-3 px-2 row align-items-center justify-content-between">
+              <div class="col-2">
+                <i class="fa-solid fa-person-military-to-person fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-2">Civil
+                  Engineering</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-item py-3 px-2 row align-items-center">
+              <div class="col-2">
+                <i class="fa-solid fa-tractor fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-3">Agricultural
+                  Automation</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-item py-3 px-2 row align-items-center">
+              <div class="col-2">
+                <i class="fa-solid fa-flask fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-2">Chemical
+                  Research</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-item py-3 px-2 row align-items-center">
+              <div class="col-2">
+                <i class="fa-solid fa-van-shuttle fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-2"> Automotive
+                  Manufacturing</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-item py-3 px-2 row align-items-center">
+              <div class="col-2">
+                <i class="fa-solid fa-toolbox fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-2">Mechanical
+                  Engineering</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-item py-3 px-2 row align-items-center">
+              <div class="col-2">
+                <i class="fa-solid fa-oil-can  fs-2 text-orange me-5"></i>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white fs-2">Oil &
+                  Gas Engineering</a>
+              </div>
+              <div class="col-2">
+                <div class="service-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right text-dark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Portfolio">
+    <div class="container">
+      <div class="title text-center">
+        <h6 class="text-white"><span class="text-orange">//</span> OUR Project</h6>
+        <h2 class="text-white">Our Successful Complete project</h2>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="owl-carousel owl-theme">
+        <div class="col-12">
+          <div class="item">
+            <div class="title-img mb-3 px-2">
+              <img src="img/pic1.jpg" alt="" class="w-100 rounded-4">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="title-img mb-3 px-2">
+            <img src="img/pic2.jpg" alt="" class="w-100 rounded-4">
+          </div>
+        </div>
+        <div class="item">
+          <div class="title-img px-2">
+            <img src="img/pic3.jpg" alt="" class="w-100 rounded-4">
+          </div>
+        </div>
+        <div class="item">
+          <div class="title-img px-2">
+            <img src="img/pic4.jpg" alt="" class="w-100 rounded-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="counter-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="counter position-relative">
+            <h1>12K</h1>
+            <h6 class="text-white position-absolute">PROJECT COMPLETED</h6>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="counter position-relative">
+            <h1>7K</h1>
+            <h6 class="text-white position-absolute">HAPPY CLIENT</h6>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="counter position-relative">
+            <h1>10+</h1>
+            <h6 class="text-white position-absolute">YEARS EXPERIENCE</h6>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="counter position-relative">
+            <h1>200+</h1>
+            <h6 class="text-white position-absolute">WIN AWARDS</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company-web">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 col-xl-6">
+          <div class="company-img position-relative">
+            <img src="img/thum7.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-lg-8 col-xl-6 mt-5">
+          <div class="web-contant px-5">
+            <h6 class="text-white"><span class="text-orange">//</span> OUR INDUSTRY</h6>
+            <h2 class="text-white mt-3">Providing Full Range of High Services Solution Worldwide</h2>
+            <p class="text-darkgray mt-4">It is a long established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout.</p>
+            <div class="row">
+              <div class="col-12 col-md-6 mt-4">
+                <i class="fa-brands fa-servicestack text-orange"></i>
+                <h4 class="text-white mt-3">A Full Services</h4>
+                <p class="text-darkgray">We are Providing different services in this sector to wide area of world.</p>
+              </div>
+              <div class="col-12 col-md-6 mt-4">
+                <i class="fa-solid fa-gear text-orange"></i>
+                <h4 class="text-white mt-3">All Maintenance</h4>
+                <p class="text-darkgray">We are Providing different services in this sector to wide area of world.</p>
+              </div>
+            </div>
+            <button class="btn1 bg-orange text-white text-center border-0 rounded-3 px-4 py-3 mt-4" type="submit">Read
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container-fluid">
+      <div class="blog-title text-center">
+        <h6 class="text-white"><span class="text-orange">//</span> OUR BLOG</h6>
+        <h2 class="text-white">Explore Our Latest Blog</h2>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="blog-img position-relative">
+            <img src="img/thum2.jpg" alt="service" class="rounded-4">
+            <a href="#">
+              <span class="text-orange position-absolute">February 15, 2023</span>
+            </a>
+            <a href="#" class="position-absolute fs-3 text-white">
+              Loft Office With Vintage Decor For Working
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="blog-img position-relative">
+            <img src="img/thum3.jpg" alt="" class="rounded-4">
+            <a href="#">
+              <span class="text-orange position-absolute">February 15, 2023</span>
+            </a>
+            <a href="#" class="position-absolute fs-3 text-white">
+              South African farmers play chicken with tariffs
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-4">
+          <div class="blog-img text-center  position-relative">
+            <img src="img/thum6.jpg" alt="" class="rounded-4">
+            <a href="#">
+              <span class="text-orange position-absolute">February 15, 2023</span>
+            </a>
+            <a href="#" class="position-absolute fs-3 text-white">
+              Australia’s provider of industry-based research
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discuss pt-5">
+    <div class="container-fluid ">
+      <div class="row justify-content-between">
+        <div class="col-md-6">
+          <div class="form-title text-center">
+            <h1>CONTECT US</h1>
+          </div>
+          <form action="" method="">
+            <div class="form-field">
+              <label for="fullname">Fullname</label>
+              <input type="text" class="fullname" name="fullname" placeholder="Fullname" required autofoucus>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" class="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea type="message" class="message" name="message" placeholder="Message here..." required
+                rows="4"></textarea>
+            </div>
+            <div class="btn-form">
+              <input type="submit" name="submit" class="submit" value="Send">
+            </div>
+          </form>
+        </div>
+        <div class="contect-map col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14877.966210690114!2d72.83973144999999!3d21.2123479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1694584542243!5m2!1sen!2sin"
+            width="100%" height="530" style="border: 3px solid #FD5100;" allowfullscreen="fullscreen" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <div class="logo">
+            <img src="img/logo-white.png" alt="" width="185">
+          </div>
+          <p class="text-darkgray mt-3 mb-5">
+            Over 15 year experience and knowledge international standards technologicaly changes our industrial systems,
+            we are dedicated to provides the best solutions to our valued customers there are many variation solution we
+            makes long-term investments goal in global companies in different sectors, mainly in USA and other countries
+          </p>
+          <div class="footer-email">
+            <a href="#" class="text-white fs-3">contact123@gmail.com</a>
+          </div>
+          <div class="footet-contact mt-3">
+            <ul class="row">
+              <div class="col-6">
+                <li class="row">
+                  <div class="col-2">
+                    <i class="fa-solid fa-location-dot text-orange"></i>
+                  </div>
+                  <div class="col-10 p-0">
+                    <p class="text-white fw-bold">San Francisco City Hall, San Francisco, CA</p>
+                  </div>
+                </li>
+              </div>
+              <div class="col-6">
+                <li class="row">
+                  <div class="col-2">
+                    <i class="fa-solid fa-phone text-orange"></i>
+                  </div>
+                  <div class="col-10 p-0">
+                    <a href="" class="number">
+                      <p class="text-white">(654) 321-7654</p>
+                    </a>
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="nav-menu">
+            <h4 class="text-white mb-4">Our Services</h4>
+            <ul class="p-0">
+              <a href="#">
+                <li class="text-white py-2">Oil & Gas Factory</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Chemical Research</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Mechanical</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Manufacturing</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Civil Engineering</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="nav-menu">
+            <h4 class="text-white mb-4">Useful Link</h4>
+            <ul class="p-0">
+              <a href="#">
+                <li class="text-white py-2">About us</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Our Team</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Pricing Plan</li>
+              </a>
+              <a href="#">
+                <li class="text-white py-2">Contact Us</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="text">
+            <h4 class="text-white">Newsletter</h4>
+            <p class="text-darkgray pt-4">Subscribe to our newsletter to receive latest news on our services.</p>
+            <input type="text" class="border-0 mt-3" placeholder="Your  email address"><i
+              class="fa-solid fa-bell text-orange ms-2"></i>
+            <div class="line mt-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="line1 mt-5"></div>
+      <div class="second-footer py-3 row align-items-center">
+        <div class="row  justify-content-between">
+          <div class="col-12  col-md-6 col-lg-9 col-xl-10">
+            <div class="footer-email">
+              <h5> Created by<a href="#"> Dhruvesh Patel <br> </a>All rights reserved.</h5>
+            </div>
+          </div>
+          <div class="col-12  col-md-6 col-lg-3 col-xl-2">
+            <ul class="row text-lg-end p-2">
+              <div class="footer-icon me-3">
+                <a href="#">
+                  <li>
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                  </li>
+                </a>
+              </div>
+              <div class="footer-icon me-3">
+                <a href="#">
+                  <li>
+                    <i class="fa-brands fa-dribbble text-white"></i>
+                  </li>
+                </a>
+              </div>
+              <div class="footer-icon">
+                <a href="#">
+                  <li>
+                    <i class="fa-brands fa-instagram text-white"></i>
+                  </li>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.1.1_jquery.min.js"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/owl.carousel.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 3,
+            nav: true,
+            loop: false,
+            margin: 20
+          }
+        }
+      });
+    })
+  </script>
+
+  <script>
+    $(function () {
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 50) {
+          $(".navbar").addClass("header");
+        } else {
+          $(".navbar").removeClass("header");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    var btn = $('#button');
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+  </script>
+
+
+  <script>
+    const buttons = document.querySelectorAll("[data-slide-direction]");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const offset = button.dataset.slideDirection === "next" ? 1 : -1;
+        changeSlide(offset);
+      });
+    });
+    const changeSlide = (offset) => {
+      const slides = document.querySelector(".slides");
+      const activeSlide = slides.querySelector("[data-active-slide]");
+      let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+      newIndex =
+        newIndex < 0
+          ? slides.children.length - 1
+          : newIndex === slides.children.length
+            ? 0
+            : newIndex;
+      slides.children[newIndex].dataset.activeSlide = true;
+      delete activeSlide.dataset.activeSlide;
+
+      const circles = document.querySelector(".slides-circles");
+      const activeCircle = circles.querySelector("[data-active-slide]");
+      circles.children[newIndex].dataset.activeSlide = true;
+      delete activeCircle.dataset.activeSlide;
+    };
+    setInterval(changeSlide.bind(null, 1), 4000);
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        $(".loader-wrapper").fadeOut("slow", function () {
+          $(".content").fadeIn("slow");
+        });
+      }, 1500);
+    });
+  </script>
+
+  <script>
+    (function () {
+      var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+        window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      window.requestAnimationFrame = requestAnimationFrame;
+    })();
+
+    $(window).resize(function () {
+      ParticleCanvas.width = ($(window).width() - 20);
+      ParticleCanvas.height = ($(window).height() - 10);
+    });
+
+    window.onload = function () {
+
+      var ParticleCanvas = document.getElementById("ParticleCanvas");
+      var context = ParticleCanvas.getContext("2d");
+      ParticleCanvas.width = ($(window).width() - 20);
+      ParticleCanvas.height = ($(window).height() - 10);
+      document.body.appendChild(ParticleCanvas);
+
+      var particles = {},
+        particleIndex = 0,
+        settings = {
+          density: 100,
+          particleSize: 2,
+          startingX: ParticleCanvas.width / 5,
+          startingY: ParticleCanvas.height,
+          gravity: -0.009
+        };
+
+      function Particle() {
+
+        this.x = settings.startingX * (Math.random() * 10);
+        this.y = settings.startingY;
+
+        this.vx = (Math.random() * 2 / 3) - (Math.random() * 3 / 3);
+        this.vy = -(Math.random() * 5 / 3);
+
+        particleIndex++;
+        particles[particleIndex] = this;
+        this.id = particleIndex;
+        this.life = 0;
+        this.maxLife = 200;
+        this.alpha = 1;
+        this.red = 0;
+        this.green = 255;
+        this.blue = 255;
+      }
+
+
+      Particle.prototype.draw = function () {
+        this.x += this.vx;
+        this.y += this.vy;
+
+        this.vy += settings.gravity;
+
+        this.life++;
+
+        this.red += 2;
+
+        this.alpha -= 0.005;
+
+        if (this.life >= this.maxLife) {
+          delete particles[this.id];
+        }
+
+        context.clearRect(settings.leftWall, settings.groundLevel, ParticleCanvas.width, ParticleCanvas.height);
+        context.beginPath();
+        context.fillStyle = "rgba(" + this.red + ", " + this.green + ", " + this.blue + ", " + this.alpha + ")";
+
+        context.arc(this.x, this.y, settings.particleSize, 0, Math.PI * 2, true);
+        context.closePath();
+        context.fill();
+      }
+
+      function animateDust() {
+        context.clearRect(0, 0, ParticleCanvas.width, ParticleCanvas.height);
+
+
+        for (var i = 0; i < settings.density; i++) {
+          if (Math.random() > 0.97) {
+            new Particle();
+          }
+        }
+
+        for (var i in particles) {
+          particles[i].draw();
+        }
+        window.requestAnimationFrame(animateDust);
+      }
+      animateDust();
+    };
+  </script>
+
+
+</body>
+
+</html>
